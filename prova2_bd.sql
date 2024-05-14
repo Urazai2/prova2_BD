@@ -28,7 +28,10 @@ SELECT AVG(paginas)
 FROM Livros
 
 8.
-
+SELECT ano_publicacao
+FROM Livros
+ORDER BY ano_publicacao DESC;
+  
 9.
 SELECT titulo, data_publucacao
 FROM Livros
